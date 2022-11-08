@@ -1,0 +1,54 @@
+*{
+    font-family: Verdana, ;
+    box-sizing: border-box;
+}
+nav{
+    position: left;
+    justify-content: space-evenly;
+    padding: left;   
+}
+logo{
+    color: aqua;
+    font-size: 50px;
+    cursor:pointer;
+}
+span{
+    color: darkmagenta;
+}
+nav li a{
+    text-decoration: aqua;
+    text-transform: capitalize;
+}
+.tone{
+    /*margin: 0 auto;
+    width:100%;*/
+    background-color: darkslategray;
+    width: 100px;
+    border: 1px solid gray ;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: translate(-20%);
+}
+h4{
+    color: black;
+    margin: 10px 0px 10px;
+    font-size: 30;
+}
+li{
+    background-color: gray;
+    font-size: 30px;
+}
+body{
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+img{
+ margin: 20px;
+ size: 20px;
+ position: absolute;
+ width: 80%;
+ height:auto;
+}
